@@ -97,15 +97,15 @@ function startsWith(char, string) {
 };
 
 function containsVowels(string) {
-  if
+  // your code here
 };
 
 function isLowerCase(string) {
-  if (string.toLowerCase() === string) {
+   if (string.toLowerCase() === string) {
     return true;
   }
   return false;
-}
+
 };
 
 module.exports = {

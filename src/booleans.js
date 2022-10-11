@@ -97,7 +97,9 @@ function startsWith(char, string) {
 };
 
 function containsVowels(string) {
-  // your code here
+  return string.search("[eaiouEAIOU]") >= 0;
+
+
 };
 
 function isLowerCase(string) {
